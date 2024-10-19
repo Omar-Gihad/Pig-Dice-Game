@@ -256,7 +256,7 @@ main {
   .btn--new {
     position: absolute;
     left: 50%;
-    top: 8rem;
+    top: 12rem;
     transform: translateX(-50%);
     color: #444;
     background: none;
