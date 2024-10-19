@@ -234,7 +234,7 @@ main {
   }
 
   .player {
-    padding: 4rem;
+    padding: 8rem;
     width: 100%;
   }
 
@@ -256,7 +256,7 @@ main {
   .btn--new {
     position: absolute;
     left: 50%;
-    top: 25px;
+    top: 8rem;
     transform: translateX(-50%);
     color: #444;
     background: none;
@@ -279,7 +279,7 @@ main {
 
   .btn--roll{position: absolute;
     left: 50%;
-    top: 635px; ;
+    top: 77rem; ;
     transform: translateX(-50%);
     color: #444;
     background: none;
@@ -302,7 +302,7 @@ main {
   .btn--hold{
     position: absolute;
     left: 50%;
-    top: 700px; ;
+    top: 83rem; ;
     transform: translateX(-50%);
     color: #444;
     background: none;
@@ -321,5 +321,14 @@ main {
     padding: 0.7rem 2.5rem;
     border-radius: 50rem;
     box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  }
+
+  .dice {
+    position: absolute;
+    left: 50%;
+    top: 41rem;
+    transform: translateX(-50%);
+    height: 10rem;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
   }
 }
